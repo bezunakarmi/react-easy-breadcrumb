@@ -1,0 +1,4 @@
+node_modules
+yarn.lock
+yarm-error.log
+index.js.map
