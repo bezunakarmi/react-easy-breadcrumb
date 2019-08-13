@@ -4,10 +4,10 @@ import BreadCrumbArrow from './breadcrumbArrow';
 
 class BreadCrumbs extends Component {
 	render() {
-		const { crumbs, arrow } = this.props;
+		const { crumbs, separator } = this.props;
 
-		const arrowIcon = arrow ? (
-			<img src={arrow} alt="breadcrumbArrow" />
+		const arrowIcon = separator ? (
+			<img src={separator} alt="breadcrumbArrow" />
 		) : (
 			<BreadCrumbArrow />
 		);
