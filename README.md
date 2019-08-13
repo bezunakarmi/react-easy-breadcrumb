@@ -1,17 +1,17 @@
-# react-simple-breadcrumb
+# react-easy-breadcrumb
 
 A simple react component for generating breadcrumbs.
 
 ## Installation
 
 ```sh
-npm install react-simple-breadcrumb
+npm install react-easy-breadcrumb
 ```
 
 or
 
 ```sh
-yarn add react-simple-breadcrumb
+yarn add react-easy-breadcrumb
 ```
 
 ## `Breadcrumbs` component props
@@ -36,7 +36,7 @@ The crumbs property is array of breadcrumbs item that will be used in the `Bread
 # Example
 
 ```javascript
-import { Breadcrumbs } from 'react-simple-breadcrumbs';
+import { Breadcrumbs } from 'react-easy-breadcrumb';
 import Separator from '../images/separator.svg';
 
 const links = [
